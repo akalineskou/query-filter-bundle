@@ -43,8 +43,6 @@ interface ConfigInterface
      * For example, concat(concat(concat(concat(p.firstname, ' '), p.middlename), ' '), p.lastname) can be
      * aliased by 'person_name':
      *
-     * @see QueryFilter::getTemplateData()
-     *
      * @param Alias[] $aliases
      * @return $this
      */
